@@ -370,3 +370,8 @@ HtmlGenerator['body_attributes'] = function(block) {
   var code = '<body' + value_name + '>\n' + statements_content + '</body>\n';
   return code;
 };
+HtmlGenerator['comment'] = function(block) {
+  var comment_content = block.getFieldValue('content');
+  var code = '<!-- ' + comment_content + ' --> \n';
+  return code;
+};
