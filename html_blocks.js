@@ -1100,8 +1100,8 @@ var htmlBlocks =
   "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
 },
 {
-  "type": "secret",
-  "message0": "←! %1 →",
+  "type": "comment",
+  "message0": "←!-- %1 --→",
   "args0": [
   {
     "type": "field_input",
