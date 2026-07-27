@@ -1,35 +1,25 @@
 # Blockly-HTML
-Blockly blocks and generators for HTML generation and a demo with live preview.
 
-The demo can be tested here: http://blocklyhtml.zgtm.de/
+## 中文說明
 
-A German demo is available as well: http://htmlbausteine.zgtm.de/
+Blockly-HTML 是一個利用 Blockly 的視覺化程式設計環境，讓使用者可以通過拖拉區塊的方式來建立 HTML 網頁原始碼的工具。這個工具提供了多語言版本，包括中文、英文和德文的使用界面，方便不同語言使用者操作。
 
-<img src="example.png" width="500" alt="Screenshot" />
+使用者可以在 Blockly 的開發者工具頁面上透過 `library_html.xml` 檔案修改或新增磚塊，以適應特定的開發需求。此外，程式還支持將工作區的內容存儲在瀏覽器的本地儲存中，並支援匯入、匯出磚塊（Blockly XML）和匯出 HTML 文件。
 
-## Try the demo
+若遇到錯誤或希望提出功能請求，可以透過 [GitHub 問題頁面](https://github.com/bestian/blockly-html/issues) 提交。這樣的工具特別適合初學者學習 HTML 和網頁開發的基礎，或者任何對視覺化編程感興趣的使用者。
 
-The files `blockly_compressed.js`, `blocks_compressed.js`, `javascript_compressed.js` and `msg/js/en.js`
-of the Blockly repository need to be present in the directory `blockly`.
+## English Introduction
 
-You can simply checkout the repository https://github.com/google/blockly or unzip https://github.com/google/blockly/archive/master.zip into the directory `blockly`.
-Or you can pick the files above manually to create an environment you can distribute without moving the whole Blockly source code around.
+Blockly-HTML is a tool that utilizes the Blockly visual programming environment, allowing users to create HTML web page source code by dragging and dropping blocks. This tool offers multi-language versions, including interfaces in Chinese, English, and German, to accommodate users of different languages.
 
-The demo saves the workspace in the local browser storage. 
-Additionally, it supports importing and exporting blocks (Blockly XML) and exporting the HTML document.
+Users can modify or add blocks using the `library_html.xml` file on the Blockly developer tools page to meet specific development needs. Additionally, the program supports storing workspace content in local browser storage and supports importing, exporting blocks (Blockly XML), and exporting HTML documents.
 
-A German localisation of the demo can be enabled by loading `de.js` instead of `en.js` in the header of the HTML file. (This also needs `msg/js/de.js` from Blockly.)
+If you encounter any errors or wish to submit a feature request, you can do so through the [GitHub issues page](https://github.com/bestian/blockly-html/issues). This tool is particularly suitable for beginners learning the basics of HTML and web development, or anyone interested in visual programming.
 
-## Library files
+## Deutschland Einführung
 
-The files `library_html.xml` and `library_html_german.xml` are block libraries that can be used to modify the blocks using the Blockly developer tools: https://blockly-demo.appspot.com/static/demos/blockfactory/index.html
+Blockly-HTML ist ein Werkzeug, das die visuelle Programmierumgebung von Blockly nutzt und es Benutzern ermöglicht, HTML-Webseitenquellcode durch Ziehen und Ablegen von Blöcken zu erstellen. Dieses Werkzeug bietet mehrsprachige Versionen, einschließlich Schnittstellen in Chinesisch, Englisch und Deutsch, um Benutzer verschiedener Sprachen zu unterstützen.
 
-## TODO
- * Support more HTML tags and attributes
- * Enforce HTML tag-nesting rules via types
- * Many more …
+Benutzer können Blöcke mit der Datei `library_html.xml` auf der Blockly-Entwicklertools-Seite ändern oder hinzufügen, um spezifische Entwicklungsanforderungen zu erfüllen. Darüber hinaus unterstützt das Programm das Speichern von Arbeitsbereichsinhalten im lokalen Browserspeicher und unterstützt das Importieren, Exportieren von Blöcken (Blockly XML) und das Exportieren von HTML-Dokumenten.
 
-## Further ideas
- * Maybe support generating other markup languages (Markdown, LaTeX)
- * Add script-tag and allow for standard Blockly blocks in there
-
+Wenn Sie auf Fehler stoßen oder eine Funktion anfordern möchten, können Sie dies über die [GitHub-Problemeite](https://github.com/bestian/blockly-html/issues) tun. Dieses Werkzeug eignet sich besonders für Anfänger, die die Grundlagen von HTML und Webentwicklung lernen, oder für jeden, der sich für visuelle Programmierung interessiert.
