@@ -1098,6 +1098,22 @@ var htmlBlocks =
   "colour": 0,
   "tooltip": "",
   "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+},
+{
+  "type": "secret",
+  "message0": "←! %1 →",
+  "args0": [
+  {
+    "type": "field_input",
+    "name": "content",
+    "text": ""
+  }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 330,
+  "tooltip": "",
+  "helpUrl": "https://www.w3schools.com/html/html_comments.asp"
 }];
 
 if (Msg && Msg.blocks) {
