@@ -1,6 +1,5 @@
 "use strict";
 
-
 var htmlBlocks =
 [{
   "type": "baseframe",
