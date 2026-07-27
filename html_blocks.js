@@ -124,8 +124,9 @@ var htmlBlocks =
 },
 {
   "type": "paragraph",
-  "message0": "paragraph %1",
+  "message0": "paragraph %1 %2",
   "args0": [
+  {"type": "input_dummy"},
   {
     "type": "input_statement",
     "name": "content",
@@ -345,7 +346,7 @@ var htmlBlocks =
 },
 {
   "type": "generictag",
-  "message0": "< %1 > %2 %3",
+  "message0": "← %1 → %2 %3",
   "args0": [
   {
     "type": "field_input",
